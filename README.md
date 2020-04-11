@@ -15,7 +15,7 @@ Here are some version requirment for this project
 
 
 <h2>Comments</h2>
-I noticed that when the given digit's color is light, the probability successful prediction will heavily reduced.
+I noticed that when the given digit's color is light, the probability of successful prediction will heavily reduced.
 (Example: "0.jpg")
 
 <h2>Learning Resources</h2>

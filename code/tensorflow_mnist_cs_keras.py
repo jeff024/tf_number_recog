@@ -42,10 +42,10 @@ print (x_train.shape, x_test.shape)
 # train_dataset = tf.data.Dataset.from_tensor_slices((x_train, y_train))
 # test_dataset = tf.data.Dataset.from_tensor_slices((x_test, y_test))
 
-"Part 2: building the module"
+"Part 2: building the model"
 
-# define the module
-# key elements in this module： tf.keras.Model 和 tf.keras.layers
+# define the model
+# key elements in this model： tf.keras.Model 和 tf.keras.layers
 # loss function： tf.keras.losses
 # optimizer： tf.keras.optimizer
 # evaluation： tf.keras.metrics
@@ -110,10 +110,10 @@ model = tf.keras.models.Sequential([
 
 
 
-# displaying module
+# displaying model
 model.summary()
 
-"part 3: train the module"
+"part 3: train the model"
 
 
 num_epochs = 10
@@ -138,7 +138,7 @@ end_time = datetime.datetime.now()
 time_cost = end_time - start_time
 print ("time_cost = ", time_cost)
 
-# saving the module
+# saving the model
 #from google.colab import drive
 #drive.mount('/gdrive')
 

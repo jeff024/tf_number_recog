@@ -1,4 +1,4 @@
-# loading trained Lenet module
+# loading trained Lenet model
 import tensorflow as tf
 
 model = tf.keras.models.load_model('lenet_model.h5')
